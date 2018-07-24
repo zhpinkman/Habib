@@ -7,18 +7,15 @@ import org.springframework.web.bind.annotation.RequestMapping
 import org.springframework.web.bind.annotation.RestController
 
 @RestController
-@RequestMapping
-class DeleteController {
+@RequestMapping("/tasks")
+class TasksController {
     @Autowired
     lateinit var taskRepository: TaskRepository
 
     @DeleteMapping("/delete/{id}")
     fun deleteById(@PathVariable("id") id: String){
         if (this.taskRepository.existsById(id))
-        {
             this.taskRepository.deleteById(id)
-            throw EntityOk()
-        }
         else
             throw EntityNotFound()
     }
