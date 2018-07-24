@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="73267ccd-a212-4cca-97bd-0b294bc37a19" name="Default" comment="">
+    <list default="true" id="73267ccd-a212-4cca-97bd-0b294bc37a19" name="Default" comment="Re Coded With @Service">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/utcloud/habib/Services/TasksService/TasksService.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/utcloud/habib/Services/TasksService/TasksServiceImpl.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/utcloud/habib/DeleteController.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/utcloud/habib/TasksController.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/utcloud/habib/Exceptions.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/utcloud/habib/Exceptions.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/utcloud/habib/TasksController.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/utcloud/habib/TasksController.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,23 +27,44 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TasksController.kt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TasksController.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/kotlin/utcloud/habib/TasksController.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+            <state relative-caret-position="222">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
               <folding>
-                <element signature="e#23#207#0" expanded="true" />
+                <element signature="e#23#385#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Exceptions.kt" pinned="false" current-in-tab="false">
+      <file leaf-file-name="TasksService.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/kotlin/utcloud/habib/Services/TasksService/TasksService.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="3" column="30" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TasksServiceImpl.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/kotlin/utcloud/habib/Services/TasksService/TasksServiceImpl.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+              <folding>
+                <element signature="e#45#188#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Exceptions.kt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/kotlin/utcloud/habib/Exceptions.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="252">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
               <folding>
                 <element signature="e#23#127#0" expanded="true" />
               </folding>
@@ -52,7 +76,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/kotlin/utcloud/habib/UserRepository.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="252">
-              <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+              <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
               <folding>
                 <element signature="e#23#138#0" expanded="true" />
               </folding>
@@ -73,7 +97,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/kotlin/utcloud/habib/User.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="252">
-              <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+              <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -82,7 +106,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/kotlin/utcloud/habib/TaskRepository.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="252">
-              <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+              <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
               <folding>
                 <element signature="e#23#138#0" expanded="true" />
               </folding>
@@ -94,7 +118,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="72">
-              <caret line="2" column="36" lean-forward="true" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
+              <caret line="2" column="36" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -117,13 +141,15 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/kotlin/utcloud/habib/TaskRepository.kt" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/utcloud/habib/Exceptions.kt" />
         <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/src/main/kotlin/utcloud/habib/UserRepository.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/utcloud/habib/DeleteController.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/utcloud/habib/User.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/utcloud/habib/Task.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/utcloud/habib/Services/TasksService/TasksService.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/utcloud/habib/Services/TasksService/TasksServiceImpl.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/utcloud/habib/TasksController.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/utcloud/habib/Exceptions.kt" />
       </list>
     </option>
   </component>
@@ -187,6 +213,25 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="kotlin" type="462c0819:PsiDirectoryNode" />
               <item name="habib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="habib" type="b2602c69:ProjectViewProjectNode" />
+              <item name="habib" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
+              <item name="habib" type="462c0819:PsiDirectoryNode" />
+              <item name="Services" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="habib" type="b2602c69:ProjectViewProjectNode" />
+              <item name="habib" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
+              <item name="habib" type="462c0819:PsiDirectoryNode" />
+              <item name="Services" type="462c0819:PsiDirectoryNode" />
+              <item name="TasksService" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="habib" type="b2602c69:ProjectViewProjectNode" />
@@ -290,7 +335,7 @@
       <updated>1532327411113</updated>
       <workItem from="1532327412297" duration="1216000" />
       <workItem from="1532338454219" duration="326000" />
-      <workItem from="1532459782840" duration="4693000" />
+      <workItem from="1532459782840" duration="6151000" />
     </task>
     <task id="LOCAL-00001" summary="Delete Task By Id Supported">
       <created>1532462452622</created>
@@ -306,14 +351,22 @@
       <option name="project" value="LOCAL" />
       <updated>1532463063928</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Fixed Some Logical And Design Problems">
+      <created>1532464707379</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1532464707379</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6235000" />
+    <option name="totallyTimeSpent" value="7693000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -327,7 +380,7 @@
       <window_info id="UI Designer" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="8" />
+      <window_info active="true" anchor="bottom" id="Messages" order="8" visible="true" weight="0.32965517" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="7" />
@@ -336,7 +389,7 @@
       <window_info anchor="bottom" id="Run" order="2" weight="0.32965517" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22395833" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22395833" />
       <window_info anchor="right" id="Bean Validation" order="3" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="3" />
@@ -359,7 +412,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Delete Task By Id Supported" />
     <MESSAGE value="Fix 2 / Deleted Unnecessary codes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix 2 / Deleted Unnecessary codes" />
+    <MESSAGE value="Fixed Some Logical And Design Problems" />
+    <MESSAGE value="Re Coded With @Service" />
+    <option name="LAST_COMMIT_MESSAGE" value="Re Coded With @Service" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/utcloud/habib/HabibApplication.kt">
@@ -408,7 +463,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/utcloud/habib/User.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
-          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -422,7 +477,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/utcloud/habib/TaskRepository.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
-          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
           <folding>
             <element signature="e#23#138#0" expanded="true" />
           </folding>
@@ -432,7 +487,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/utcloud/habib/UserRepository.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
-          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
           <folding>
             <element signature="e#23#138#0" expanded="true" />
           </folding>
@@ -442,26 +497,43 @@
     <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
-          <caret line="2" column="36" lean-forward="true" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
+          <caret line="2" column="36" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/utcloud/habib/Exceptions.kt">
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/utcloud/habib/Services/TasksService/TasksService.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="108">
+          <caret line="3" column="30" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/utcloud/habib/Services/TasksService/TasksServiceImpl.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
           <folding>
-            <element signature="e#23#127#0" expanded="true" />
+            <element signature="e#45#188#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/utcloud/habib/TasksController.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+        <state relative-caret-position="222">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
           <folding>
-            <element signature="e#23#207#0" expanded="true" />
+            <element signature="e#23#385#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/utcloud/habib/Exceptions.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="e#23#127#0" expanded="true" />
           </folding>
         </state>
       </provider>
