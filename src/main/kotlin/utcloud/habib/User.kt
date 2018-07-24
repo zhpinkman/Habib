@@ -5,5 +5,4 @@ import org.springframework.data.annotation.Id
 class User(var Name: String) {
     @Id
     var id: String? = null
-    var tasks: MutableList<Task> = mutableListOf()
 }
