@@ -12,9 +12,9 @@ class loginServiceImpl : loginService{
     @Autowired
     lateinit var userRepository: UserRepository
 
-    override fun loginByuserName(user: User) {
-        if (!this.userRepository.existsByuserName(user.userName)) {
-            this.userRepository.save(User(user.userName))
+    override fun loginByuserName(username: String) {
+        if (!this.userRepository.existsByuserName(username)) {
+            this.userRepository.save(User(username))
             throw userCreated()
         }
     }
