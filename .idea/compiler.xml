@@ -9,8 +9,5 @@
         <module name="habib" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="habib" target="1.8" />
-    </bytecodeTargetLevel>
   </component>
 </project>

@@ -5,3 +5,6 @@ import org.springframework.web.bind.annotation.ResponseStatus
 
 @ResponseStatus(HttpStatus.NOT_FOUND)
 class EntityNotFound : Exception()
+
+@ResponseStatus(HttpStatus.CREATED)
+class userCreated: Exception()
