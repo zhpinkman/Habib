@@ -13,6 +13,8 @@ class loginServiceImpl : loginService{
     lateinit var userRepository: UserRepository
 
     override fun loginByuserName(username: String) {
+        val user = User(username)
+        userRepository.save(user)
         if (!this.userRepository.existsByuserName(username)) {
             this.userRepository.save(User(username))
             throw userCreated()

@@ -21,12 +21,17 @@ class TasksServiceImpl : TasksService {
         else
             throw EntityNotFound()
     }
+
     override fun insert(task: Task) {
 //        logger.info("ASDASDASDASD")
-        if ( !this.userRepository.existsById(task.UserId))
+        if ( !this.userRepository.existsById(task.userId))
             throw EntityNotFound()
         else
             this.taskRepository.insert(task)
-
     }
+
+    override fun tasksById(id: String): List<Task> {
+        return  this.taskRepository.findByUserId(id)
+    }
+
 }

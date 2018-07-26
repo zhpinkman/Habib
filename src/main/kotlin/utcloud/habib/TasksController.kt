@@ -19,4 +19,9 @@ class TasksController {
     fun insert(@RequestBody task: Task){
         tasksService.insert (task);
     }
+
+    @GetMapping("/all/{id}")
+    fun tasksById(@PathVariable("id") id: String): List<Task>{
+        return tasksService.tasksById(id)
+    }
 }
