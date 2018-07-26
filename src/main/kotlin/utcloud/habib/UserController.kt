@@ -13,7 +13,7 @@ class UserController {
     lateinit var loginService: loginService
 
     @PostMapping("/login")
-    fun login(@RequestBody username: String){
-        loginService.loginByuserName(username)
+    fun login(@RequestBody username: String): User{
+        return loginService.loginByuserName(username)
     }
 }
